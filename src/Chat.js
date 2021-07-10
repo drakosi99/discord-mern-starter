@@ -2,9 +2,9 @@ import React from 'react'
 import './Chat.css'
 import ChatHeader from './ChatHeader'
 import AddCircleIcon from '@material-ui/icons/AddCircle'
-import CradGiftcardIcon from '@material-ui/icons/CardGiftcard'
+import CardGiftcardIcon from '@material-ui/icons/CardGiftcard'
 import GifIcon from '@material-ui/icons/Gif'
-import EmojiEmoticonsIcon from '@material-ui/icons/EmojiEmotions'
+import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions'
 import Message from './Message'
 import { useSelector } from 'react-redux'
 import { selectUser } from './features/userSlice'
@@ -64,9 +64,9 @@ const Chat = () => {
                 </form>
 
                 <div className="chat__inputIcon">
-                    <CradGiftcardIcon fontSize='large' />
+                    <CardGiftcardIcon fontSize='large' />
                     <GifIcon fontSize='large' />
-                    <EmojiEmoticonsIcon fontSize='large' />
+                    <EmojiEmotionsIcon fontSize='large' />
                 </div>
             </div>
         </div>
